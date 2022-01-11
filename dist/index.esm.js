@@ -4510,7 +4510,7 @@ function MultiImageInput(_ref) {
       style: {
         display: 'block'
       }
-    }, "ADD IMAGE")), React__default.createElement("input", {
+    }, "Añadir imagen")), React__default.createElement("input", {
       type: "file",
       multiple: true,
       onChange: function onChange(e) {
@@ -4525,7 +4525,7 @@ function MultiImageInput(_ref) {
   })), allowCrop && currentImage && React__default.createElement(Modal, {
     isOpen: true,
     toggle: exitCrop
-  }, React__default.createElement(Modal.Header, null, "Crop Image"), React__default.createElement(Modal.Body, null, React__default.createElement(ReactCrop, _extends({}, cropConfig, {
+  }, React__default.createElement(Modal.Header, null, "Cortar imagen"), React__default.createElement(Modal.Body, null, React__default.createElement(ReactCrop, _extends({}, cropConfig, {
     crop: crop,
     onChange: setCrop,
     onComplete: onCropComplete,
@@ -4535,7 +4535,7 @@ function MultiImageInput(_ref) {
     type: "button",
     onClick: exitCrop,
     size: "normal"
-  }, "Crop"))));
+  }, "Cortar"))));
 }
 MultiImageInput.defaultProps = {
   max: 3,
